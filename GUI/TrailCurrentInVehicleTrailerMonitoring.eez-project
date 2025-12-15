@@ -473,6 +473,7 @@
               },
               "timeline": [],
               "eventHandlers": [],
+              "identifier": "HomePageBottomNavBar",
               "leftUnit": "px",
               "topUnit": "px",
               "widthUnit": "px",
@@ -642,6 +643,7 @@
               },
               "timeline": [],
               "eventHandlers": [],
+              "identifier": "TrailerPageBottomNavBar",
               "leftUnit": "px",
               "topUnit": "px",
               "widthUnit": "px",
@@ -2329,7 +2331,7 @@
               },
               "timeline": [],
               "eventHandlers": [],
-              "identifier": "PowerBottomToolbar",
+              "identifier": "PowerPageBottomToolbar",
               "leftUnit": "px",
               "topUnit": "px",
               "widthUnit": "px",
@@ -2468,10 +2470,10 @@
             {
               "objID": "00180821-378c-44c8-cd03-0134a76a0ecc",
               "type": "LVGLButtonWidget",
-              "left": 350,
-              "top": 227,
-              "width": 100,
-              "height": 50,
+              "left": 250,
+              "top": 42,
+              "width": 300,
+              "height": 300,
               "customInputs": [],
               "customOutputs": [],
               "style": {
@@ -2500,7 +2502,7 @@
                   "type": "LVGLLabelWidget",
                   "left": 0,
                   "top": 0,
-                  "width": 44,
+                  "width": 49,
                   "height": 16,
                   "customInputs": [],
                   "customOutputs": [],
@@ -2539,7 +2541,7 @@
                   },
                   "group": "",
                   "groupIndex": 0,
-                  "text": "Home",
+                  "text": "SOLAR",
                   "textType": "literal",
                   "longMode": "WRAP",
                   "recolor": false
@@ -2579,6 +2581,7 @@
               },
               "timeline": [],
               "eventHandlers": [],
+              "identifier": "SolarPageBottomNavBar",
               "leftUnit": "px",
               "topUnit": "px",
               "widthUnit": "px",
@@ -2681,6 +2684,7 @@
               },
               "timeline": [],
               "eventHandlers": [],
+              "identifier": "AirPageBottomNavBar",
               "leftUnit": "px",
               "topUnit": "px",
               "widthUnit": "px",
@@ -3442,6 +3446,7 @@
               },
               "timeline": [],
               "eventHandlers": [],
+              "identifier": "SettingPageBottomNavBar",
               "leftUnit": "px",
               "topUnit": "px",
               "widthUnit": "px",
@@ -3475,6 +3480,48 @@
                 "objID": "75ca500c-5101-4d11-eb99-af4b9b83e21c",
                 "values": {}
               }
+            },
+            {
+              "objID": "2bc56573-2b7a-475a-f717-b74fe3011e47",
+              "type": "LVGLLabelWidget",
+              "left": 332,
+              "top": 174,
+              "width": 102,
+              "height": 16,
+              "customInputs": [],
+              "customOutputs": [],
+              "style": {
+                "objID": "c1265e87-f4ea-4b79-f641-247d76025ee4",
+                "useStyle": "default",
+                "conditionalStyles": [],
+                "childStyles": []
+              },
+              "timeline": [],
+              "eventHandlers": [],
+              "leftUnit": "px",
+              "topUnit": "px",
+              "widthUnit": "content",
+              "heightUnit": "content",
+              "children": [],
+              "widgetFlags": "CLICK_FOCUSABLE|GESTURE_BUBBLE|PRESS_LOCK|SCROLLABLE|SCROLL_CHAIN_HOR|SCROLL_CHAIN_VER|SCROLL_ELASTIC|SCROLL_MOMENTUM|SCROLL_WITH_ARROW|SNAPPABLE",
+              "hiddenFlagType": "literal",
+              "clickableFlagType": "literal",
+              "flagScrollbarMode": "",
+              "flagScrollDirection": "",
+              "scrollSnapX": "",
+              "scrollSnapY": "",
+              "checkedStateType": "literal",
+              "disabledStateType": "literal",
+              "states": "",
+              "localStyles": {
+                "objID": "bc8c14be-20a7-4943-9b19-52774a769736"
+              },
+              "group": "",
+              "groupIndex": 0,
+              "text": "Settings Page",
+              "textType": "literal",
+              "longMode": "WRAP",
+              "recolor": false
             }
           ],
           "widgetFlags": "CLICKABLE|PRESS_LOCK|CLICK_FOCUSABLE|GESTURE_BUBBLE|SNAPPABLE|SCROLLABLE|SCROLL_ELASTIC|SCROLL_MOMENTUM|SCROLL_CHAIN_HOR|SCROLL_CHAIN_VER",
@@ -3722,8 +3769,8 @@
                   "type": "LVGLLabelWidget",
                   "left": 0,
                   "top": 0,
-                  "width": 40,
-                  "height": 34,
+                  "width": 3620,
+                  "height": 30,
                   "customInputs": [],
                   "customOutputs": [],
                   "style": {
@@ -3888,9 +3935,109 @@
               "groupIndex": 0
             },
             {
-              "objID": "ae2489f5-b253-422a-96d6-4e1565660007",
+              "objID": "b1cb7fa4-eef3-4e69-8fbe-cbf061f4112d",
               "type": "LVGLButtonWidget",
               "left": 418,
+              "top": 5,
+              "width": 100,
+              "height": 50,
+              "customInputs": [],
+              "customOutputs": [],
+              "style": {
+                "objID": "f063b5e1-fb27-4517-8577-36a21b6b1825",
+                "useStyle": "default",
+                "conditionalStyles": [],
+                "childStyles": []
+              },
+              "timeline": [],
+              "eventHandlers": [
+                {
+                  "objID": "4140ae1e-cef8-4dc2-a3d0-466e6f2657e0",
+                  "eventName": "PRESSED",
+                  "handlerType": "action",
+                  "action": "ChangeScreen",
+                  "userData": 3
+                }
+              ],
+              "identifier": "BotttomNavBarButtonSolar",
+              "leftUnit": "px",
+              "topUnit": "px",
+              "widthUnit": "px",
+              "heightUnit": "px",
+              "children": [
+                {
+                  "objID": "212fccb3-37f6-4928-f658-7d3c1e81fff5",
+                  "type": "LVGLLabelWidget",
+                  "left": 0,
+                  "top": 0,
+                  "width": 32,
+                  "height": 32,
+                  "customInputs": [],
+                  "customOutputs": [],
+                  "style": {
+                    "objID": "728a1fcc-f205-4cf1-e057-fc2a2e5d118e",
+                    "useStyle": "default",
+                    "conditionalStyles": [],
+                    "childStyles": []
+                  },
+                  "timeline": [],
+                  "eventHandlers": [],
+                  "leftUnit": "px",
+                  "topUnit": "px",
+                  "widthUnit": "px",
+                  "heightUnit": "px",
+                  "children": [],
+                  "widgetFlags": "CLICK_FOCUSABLE|GESTURE_BUBBLE|PRESS_LOCK|SCROLLABLE|SCROLL_CHAIN_HOR|SCROLL_CHAIN_VER|SCROLL_ELASTIC|SCROLL_MOMENTUM|SCROLL_WITH_ARROW|SNAPPABLE",
+                  "hiddenFlagType": "literal",
+                  "clickableFlagType": "literal",
+                  "flagScrollbarMode": "",
+                  "flagScrollDirection": "",
+                  "scrollSnapX": "",
+                  "scrollSnapY": "",
+                  "checkedStateType": "literal",
+                  "disabledStateType": "literal",
+                  "states": "",
+                  "useStyle": "NavBarIcon",
+                  "localStyles": {
+                    "objID": "e99b6486-f9a6-457e-b6bd-f6af45583c42",
+                    "definition": {
+                      "MAIN": {
+                        "DEFAULT": {
+                          "align": "CENTER"
+                        }
+                      }
+                    }
+                  },
+                  "group": "",
+                  "groupIndex": 0,
+                  "text": "\\uf5ba",
+                  "textType": "literal",
+                  "longMode": "WRAP",
+                  "recolor": false
+                }
+              ],
+              "widgetFlags": "CLICK_FOCUSABLE|GESTURE_BUBBLE|PRESS_LOCK|SCROLL_CHAIN_HOR|SCROLL_CHAIN_VER|SCROLL_ELASTIC|SCROLL_MOMENTUM|SCROLL_ON_FOCUS|SCROLL_WITH_ARROW|SNAPPABLE",
+              "hiddenFlagType": "literal",
+              "clickableFlag": true,
+              "clickableFlagType": "literal",
+              "flagScrollbarMode": "",
+              "flagScrollDirection": "",
+              "scrollSnapX": "",
+              "scrollSnapY": "",
+              "checkedStateType": "literal",
+              "disabledStateType": "literal",
+              "states": "",
+              "useStyle": "ButtonNavbarInActive",
+              "localStyles": {
+                "objID": "48456ca8-68b5-4bb8-976b-bb2a28c1b67b"
+              },
+              "group": "",
+              "groupIndex": 0
+            },
+            {
+              "objID": "ae2489f5-b253-422a-96d6-4e1565660007",
+              "type": "LVGLButtonWidget",
+              "left": 553,
               "top": 5,
               "width": 100,
               "height": 50,
@@ -3909,7 +4056,7 @@
                   "eventName": "PRESSED",
                   "handlerType": "action",
                   "action": "ChangeScreen",
-                  "userData": 3
+                  "userData": 4
                 }
               ],
               "identifier": "BotttomNavBarButtonFridge",

@@ -1,13 +1,7 @@
 {
   "navigation": {
-    "selectedUserPageObject": "[../../TrailCurrentRemoteControl/GUI/TrailCurrentRemoteControl.eez-project]:/userPages/0",
-    "selectedUserWidgetObject": "[../../TrailCurrentRemoteControl/GUI/TrailCurrentRemoteControl.eez-project]:/userWidgets/1",
-    "selectedActionObject": "[../../TrailCurrentRemoteControl/GUI/TrailCurrentRemoteControl.eez-project]:/actions/0",
-    "selectedGlobalVariableObject": "[../../TrailCurrentRemoteControl/GUI/TrailCurrentRemoteControl.eez-project]:/variables/globalVariables/15",
-    "selectedStyleObject": "[../../TrailCurrentRemoteControl/GUI/TrailCurrentRemoteControl.eez-project]:/lvglStyles/styles/12",
-    "selectedThemeObject": "[../../TrailCurrentRemoteControl/GUI/TrailCurrentRemoteControl.eez-project]:/themes/0",
-    "selectedThemeColorObject": "[../../TrailCurrentRemoteControl/GUI/TrailCurrentRemoteControl.eez-project]:/colors/11",
-    "selectedFontObject": "[../../TrailCurrentRemoteControl/GUI/TrailCurrentRemoteControl.eez-project]:/fonts/0",
+    "selectedUserPageObject": "[TrailCurrentInVehicleTrailerMonitoring.eez-project]:/userPages/4",
+    "selectedUserWidgetObject": "[TrailCurrentInVehicleTrailerMonitoring.eez-project]:/userWidgets/1",
     "subnavigationSelectedItems": {
       "variables-tab/sub-navigation/selected-item": "Global"
     }
@@ -199,65 +193,30 @@
               "type": "tabset",
               "id": "EDITORS",
               "weight": 29.827094722305553,
-              "selected": 2,
               "enableDeleteWhenEmpty": false,
               "enableClose": false,
               "children": [
                 {
                   "type": "tab",
-                  "id": "#6c9d6dff-ded5-4b09-8fb3-6f049a823889",
-                  "name": "Home",
-                  "component": "editor",
-                  "config": {
-                    "objectPath": "[../../TrailCurrentRemoteControl/GUI/TrailCurrentRemoteControl.eez-project]:/userPages/0",
-                    "permanent": false
-                  },
-                  "icon": "svg:page"
-                },
-                {
-                  "type": "tab",
-                  "id": "#638c43ba-0d4a-42e9-85d5-796ec1834100",
-                  "name": "fa32",
-                  "component": "editor",
-                  "config": {
-                    "objectPath": "[../../TrailCurrentRemoteControl/GUI/TrailCurrentRemoteControl.eez-project]:/fonts/0",
-                    "permanent": false
-                  },
-                  "icon": "material:font_download"
-                },
-                {
-                  "type": "tab",
-                  "id": "#37b6b33a-ba38-49ad-988e-46bd8e7c0aa7",
+                  "id": "#86a74905-2a34-4678-9bd8-14f3e49c00c6",
                   "name": "BottomNavBar",
                   "component": "editor",
                   "config": {
-                    "objectPath": "[../../TrailCurrentRemoteControl/GUI/TrailCurrentRemoteControl.eez-project]:/userWidgets/1",
+                    "objectPath": "[TrailCurrentInVehicleTrailerMonitoring.eez-project]:/userWidgets/1",
                     "permanent": false
                   },
                   "icon": "svg:user_widget"
                 },
                 {
                   "type": "tab",
-                  "id": "#d32f3560-d44c-43da-9156-769814cc8a99",
-                  "name": "Power",
+                  "id": "#9021415e-e697-4dbf-a8c8-8a08261fdc34",
+                  "name": "Air",
                   "component": "editor",
                   "config": {
-                    "objectPath": "[../../TrailCurrentRemoteControl/GUI/TrailCurrentRemoteControl.eez-project]:/userPages/2",
-                    "permanent": true
-                  },
-                  "icon": "svg:page"
-                },
-                {
-                  "type": "tab",
-                  "id": "#1126f6f1-55c6-43a2-9534-173ad44c9c1f",
-                  "name": "Settings",
-                  "component": "editor",
-                  "config": {
-                    "objectPath": "[../../TrailCurrentRemoteControl/GUI/TrailCurrentRemoteControl.eez-project]:/settings",
-                    "subObjectPath": "[../../TrailCurrentRemoteControl/GUI/TrailCurrentRemoteControl.eez-project]:/settings",
+                    "objectPath": "[TrailCurrentInVehicleTrailerMonitoring.eez-project]:/userPages/4",
                     "permanent": false
                   },
-                  "icon": "material:settings"
+                  "icon": "svg:page"
                 }
               ]
             },
@@ -1390,6 +1349,124 @@
         "translate": {
           "x": -400,
           "y": -240
+        },
+        "scale": 0.75
+      },
+      "timeline": {
+        "isEditorActive": false,
+        "position": 0,
+        "secondToPx": 200,
+        "scrollLeft": 0
+      }
+    },
+    "[TrailCurrentInVehicleTrailerMonitoring.eez-project]:/userPages/0[flow-state]": {
+      "selection": {},
+      "transform": {
+        "translate": {
+          "x": -400,
+          "y": -240
+        },
+        "scale": 0.75
+      },
+      "timeline": {
+        "isEditorActive": false,
+        "position": 0,
+        "secondToPx": 200,
+        "scrollLeft": 0
+      }
+    },
+    "[TrailCurrentInVehicleTrailerMonitoring.eez-project]:/userPages/1[flow-state]": {
+      "selection": {},
+      "transform": {
+        "translate": {
+          "x": -400,
+          "y": -240
+        },
+        "scale": 0.75
+      },
+      "timeline": {
+        "isEditorActive": false,
+        "position": 0,
+        "secondToPx": 200,
+        "scrollLeft": 0
+      }
+    },
+    "[TrailCurrentInVehicleTrailerMonitoring.eez-project]:/userPages/2[flow-state]": {
+      "selection": {},
+      "transform": {
+        "translate": {
+          "x": -400,
+          "y": -240
+        },
+        "scale": 0.75
+      },
+      "timeline": {
+        "isEditorActive": false,
+        "position": 0,
+        "secondToPx": 200,
+        "scrollLeft": 0
+      }
+    },
+    "[TrailCurrentInVehicleTrailerMonitoring.eez-project]:/userPages/3[flow-state]": {
+      "selection": {},
+      "transform": {
+        "translate": {
+          "x": -400,
+          "y": -240
+        },
+        "scale": 0.75
+      },
+      "timeline": {
+        "isEditorActive": false,
+        "position": 0,
+        "secondToPx": 200,
+        "scrollLeft": 0
+      }
+    },
+    "[TrailCurrentInVehicleTrailerMonitoring.eez-project]:/userPages/4[flow-state]": {
+      "selection": {},
+      "transform": {
+        "translate": {
+          "x": -400,
+          "y": -240
+        },
+        "scale": 0.75
+      },
+      "timeline": {
+        "isEditorActive": false,
+        "position": 0,
+        "secondToPx": 200,
+        "scrollLeft": 0
+      }
+    },
+    "[TrailCurrentInVehicleTrailerMonitoring.eez-project]:/userPages/5[flow-state]": {
+      "selection": {},
+      "transform": {
+        "translate": {
+          "x": -400,
+          "y": -240
+        },
+        "scale": 0.75
+      },
+      "timeline": {
+        "isEditorActive": false,
+        "position": 0,
+        "secondToPx": 200,
+        "scrollLeft": 0
+      }
+    },
+    "[TrailCurrentInVehicleTrailerMonitoring.eez-project]:/userWidgets/1[flow-state]": {
+      "selection": {
+        "0": {
+          "0": {
+            "$selected": true
+          }
+        }
+      },
+      "transform": {
+        "translate": {
+          "x": -392,
+          "y": -482
         },
         "scale": 0.75
       },
