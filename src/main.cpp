@@ -157,6 +157,8 @@ void setup()
 
 void loop()
 {
+  Serial.print(".");
+  Serial.println("...");
   lv_timer_handler(); /* let the GUI do its work */
   delay(5);
 }

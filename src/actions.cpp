@@ -6,6 +6,8 @@
 
 void action_change_screen(lv_event_t *e)
 {
+    Serial.print("Changing screen to ID: ");
+    Serial.println((int)lv_event_get_user_data(e));
     int screenData = (int)lv_event_get_user_data(e);
     /* Clear all toolbar button checked states for all home buttons */
     lv_obj_clear_state(objects.home_page_bottom_nav_bar__bottom_nav_bar_button_home, LV_STATE_CHECKED);
