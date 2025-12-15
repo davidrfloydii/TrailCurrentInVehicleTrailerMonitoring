@@ -168,8 +168,7 @@
                       "enableClose": false,
                       "icon": "svg:hierarchy"
                     }
-                  ],
-                  "active": true
+                  ]
                 },
                 {
                   "type": "tabset",
@@ -218,7 +217,8 @@
                   },
                   "icon": "svg:page"
                 }
-              ]
+              ],
+              "active": true
             },
             {
               "type": "row",
@@ -1503,5 +1503,36 @@
   "showInactiveFlowsInDebugger": true,
   "globalFlowZoom": true,
   "flowZoom": 0.75,
+  "implementationLanguage": "C"
+}0,
+        "scrollLeft": 0
+      }
+    }
+  },
+  "activeOutputSection": 0,
+  "searchPattern": "",
+  "searchMatchCase": false,
+  "searchMatchWholeWord": false,
+  "replaceEnabled": false,
+  "replaceText": "",
+  "breakpoints": {},
+  "watchExpressions": [],
+  "showComponentDescriptions": true,
+  "logsPanelFilter": "all",
+  "selectedStylePropertyName": "",
+  "lvglPart": "MAIN",
+  "lvglState": "DEFAULT",
+  "lvglExpandedPropertiesGroup": [
+    "TEXT",
+    "POSITION AND SIZE",
+    "MISCELLANEOUS",
+    "BORDER",
+    "OUTLINE",
+    "SHADOW",
+    "BACKGROUND"
+  ],
+  "showInactiveFlowsInDebugger": true,
+  "globalFlowZoom": true,
+  "flowZoom": 1,
   "implementationLanguage": "C"
 }

@@ -27,9 +27,9 @@
  * Optional: Show CPU usage and FPS count
  * #define LV_USE_PERF_MONITOR 1
  ******************************************************************************/
-//#include "lv_demo_widgets.h"
+// #include "lv_demo_widgets.h"
 #include <lvgl.h>
-//#include <demos/lv_demos.h>
+// #include <demos/lv_demos.h>
 /*******************************************************************************
  ******************************************************************************/
 #include <Arduino_GFX_Library.h>
@@ -159,8 +159,6 @@ void setup()
 
 void loop()
 {
-  Serial.print(".");
-  Serial.println("...");
   lv_timer_handler(); /* let the GUI do its work */
   delay(5);
 }
