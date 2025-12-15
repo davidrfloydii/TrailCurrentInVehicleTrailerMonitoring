@@ -28,6 +28,7 @@ typedef struct _objects_t {
     lv_obj_t *trailer_page_bottom_nav_bar__botttom_nav_bar_button_solar;
     lv_obj_t *trailer_page_bottom_nav_bar__botttom_nav_bar_button_fridge;
     lv_obj_t *trailer_page_bottom_nav_bar__botttom_nav_bar_button_settings;
+    lv_obj_t *label_current_speed_value;
     lv_obj_t *obj0;
     lv_obj_t *obj0__bottom_nav_bar_button_home;
     lv_obj_t *obj0__bottom_nav_bar_button_trailer;
@@ -99,6 +100,10 @@ typedef struct _objects_t {
     lv_obj_t *setting_page_bottom_nav_bar__botttom_nav_bar_button_solar;
     lv_obj_t *setting_page_bottom_nav_bar__botttom_nav_bar_button_fridge;
     lv_obj_t *setting_page_bottom_nav_bar__botttom_nav_bar_button_settings;
+    lv_obj_t *settings_page_latitude_label;
+    lv_obj_t *settings_page_latitude_value;
+    lv_obj_t *settings_page_longitude_label;
+    lv_obj_t *settings_page_longitude_value;
 } objects_t;
 
 extern objects_t objects;

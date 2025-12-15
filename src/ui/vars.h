@@ -30,7 +30,10 @@ enum FlowGlobalVariables {
     FLOW_GLOBAL_VARIABLE_PDM01_DEVICE05_STATUS = 12,
     FLOW_GLOBAL_VARIABLE_PDM01_DEVICE06_STATUS = 13,
     FLOW_GLOBAL_VARIABLE_PDM01_DEVICE07_STATUS = 14,
-    FLOW_GLOBAL_VARIABLE_PDM01_DEVICE08_STATUS = 15
+    FLOW_GLOBAL_VARIABLE_PDM01_DEVICE08_STATUS = 15,
+    FLOW_GLOBAL_VARIABLE_CURRENT_LATITUDE = 16,
+    FLOW_GLOBAL_VARIABLE_CURRENT_LONGITUDE = 17,
+    FLOW_GLOBAL_VARIABLE_CURRENT_SPEED_VALUE = 18
 };
 
 // Native global variables
@@ -45,8 +48,8 @@ extern int32_t get_var_battery_soc_percentage();
 extern void set_var_battery_soc_percentage(int32_t value);
 extern float get_var_battery_voltage();
 extern void set_var_battery_voltage(float value);
-extern int32_t get_var_current_power_consumption_in_watts();
-extern void set_var_current_power_consumption_in_watts(int32_t value);
+extern const char *get_var_current_power_consumption_in_watts();
+extern void set_var_current_power_consumption_in_watts(const char *value);
 extern float get_var_power_time_to_go_measurement();
 extern void set_var_power_time_to_go_measurement(float value);
 extern const char *get_var_power_time_to_go_measurement_type();
@@ -67,6 +70,12 @@ extern int32_t get_var_pdm01_device07_status();
 extern void set_var_pdm01_device07_status(int32_t value);
 extern int32_t get_var_pdm01_device08_status();
 extern void set_var_pdm01_device08_status(int32_t value);
+extern const char *get_var_current_latitude();
+extern void set_var_current_latitude(const char *value);
+extern const char *get_var_current_longitude();
+extern void set_var_current_longitude(const char *value);
+extern int32_t get_var_current_speed_value();
+extern void set_var_current_speed_value(int32_t value);
 
 
 #ifdef __cplusplus

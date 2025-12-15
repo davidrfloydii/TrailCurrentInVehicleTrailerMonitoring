@@ -1,5 +1,6 @@
 #include <Arduino.h>
 #include <string.h>
+#include "ui/screens.h"
 #include "ui/vars.h"
 
 
@@ -118,10 +119,21 @@ void set_var_battery_soc_percentage(int32_t value) {
     battery_soc_percentage = value;
 }
 
-int32_t current_power_consumption_in_watts;
-int32_t get_var_current_power_consumption_in_watts() {
+char current_power_consumption_in_watts[100] = { 0 };
+const char *get_var_current_power_consumption_in_watts() {
     return current_power_consumption_in_watts;
 }
-void set_var_current_power_consumption_in_watts(int32_t value) {
-    current_power_consumption_in_watts = value;
+void set_var_current_power_consumption_in_watts(const char *value) {
+    strncpy(current_power_consumption_in_watts, value, sizeof(current_power_consumption_in_watts) / sizeof(char));
+    current_power_consumption_in_watts[sizeof(current_power_consumption_in_watts) / sizeof(char) - 1] = 0;
+    lv_label_set_text(objects.label_remaining_cacpity_1, current_power_consumption_in_watts);
+}
+
+int32_t current_speed_value;
+int32_t get_var_current_speed_value() {
+    return current_speed_value;
+}
+void set_var_current_speed_value(int32_t value) {
+    current_speed_value = value;
+    lv_label_set_text(objects.label_current_speed_value, String(value).c_str());
 }

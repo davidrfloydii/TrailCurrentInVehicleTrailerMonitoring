@@ -76,9 +76,9 @@ void my_touchpad_read(lv_indev_drv_t *indev_driver, lv_indev_data_t *data)
 
 void setup()
 {
-  Serial.begin(115200);
+  Serial0.begin(9600);
   // while (!Serial);
-  Serial.println("LVGL Widgets Demo");
+  Serial0.println("LVGL Widgets Demo");
 
   // Init touch device
 
@@ -103,7 +103,7 @@ void setup()
 #endif
   if (!disp_draw_buf)
   {
-    Serial.println("LVGL disp_draw_buf allocate failed!");
+    Serial0.println("LVGL disp_draw_buf allocate failed!");
   }
   else
   {
