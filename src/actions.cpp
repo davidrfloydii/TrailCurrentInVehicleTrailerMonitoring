@@ -48,37 +48,37 @@ void action_change_screen(lv_event_t *e)
 
     if (screenData == 0)
     {
-        lv_scr_load_anim(objects.home, LV_SCR_LOAD_ANIM_FADE_ON, 500, 0, false);
+        lv_scr_load(objects.home);
         /* Set toolbar icons on home to checked state */
         lv_obj_add_state(objects.home_page_bottom_nav_bar__bottom_nav_bar_button_home, LV_STATE_CHECKED);
     }
     else if (screenData == 1)
     {
-        lv_scr_load_anim(objects.trailer, LV_SCR_LOAD_ANIM_FADE_ON, 500, 0, false);
+        lv_scr_load(objects.trailer);
         /* Set toolbar icons on home to checked state */
         lv_obj_add_state(objects.trailer_page_bottom_nav_bar__bottom_nav_bar_button_trailer, LV_STATE_CHECKED);
     }
     else if (screenData == 2)
     {
-        lv_scr_load_anim(objects.power, LV_SCR_LOAD_ANIM_FADE_ON, 500, 0, false);
+        lv_scr_load(objects.power);
         /* Set toolbar icons on home to checked state */
         lv_obj_add_state(objects.power_page_bottom_toolbar__botttom_nav_bar_button_power, LV_STATE_CHECKED);
     }
     else if (screenData == 3)
     {
-        lv_scr_load_anim(objects.solar, LV_SCR_LOAD_ANIM_FADE_ON, 500, 0, false);
+        lv_scr_load(objects.solar);
         /* Set toolbar icons on home to checked state */
         lv_obj_add_state(objects.solar_page_bottom_nav_bar__botttom_nav_bar_button_solar, LV_STATE_CHECKED);
     }
     else if (screenData == 4)
     {
-        lv_scr_load_anim(objects.air, LV_SCR_LOAD_ANIM_FADE_ON, 500, 0, false);
+        lv_scr_load(objects.air);
         /* Set toolbar icons on home to checked state */
         lv_obj_add_state(objects.air_page_bottom_nav_bar__botttom_nav_bar_button_fridge, LV_STATE_CHECKED);
     }
     else if (screenData == 5)
     {
-        lv_scr_load_anim(objects.settings, LV_SCR_LOAD_ANIM_FADE_ON, 500, 0, false);
+        lv_scr_load(objects.settings);
         /* Set toolbar icons on home to checked state */
         lv_obj_add_state(objects.setting_page_bottom_nav_bar__botttom_nav_bar_button_settings, LV_STATE_CHECKED);
     }
