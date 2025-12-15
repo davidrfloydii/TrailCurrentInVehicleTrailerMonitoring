@@ -417,7 +417,7 @@ void create_screen_power() {
                             lv_obj_set_pos(obj, 0, 0);
                             lv_obj_set_size(obj, 250, 250);
                             lv_arc_set_range(obj, 0, 2000);
-                            lv_arc_set_value(obj, 0);
+                            lv_arc_set_value(obj, 200);
                             add_style_arc_default(obj);
                             lv_obj_set_style_bg_opa(obj, 0, LV_PART_KNOB | LV_STATE_DEFAULT);
                             lv_obj_set_style_bg_color(obj, lv_color_hex(theme_colors[active_theme_index][6]), LV_PART_KNOB | LV_STATE_DEFAULT);

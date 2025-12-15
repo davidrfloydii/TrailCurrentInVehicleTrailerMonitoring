@@ -101,3 +101,27 @@ int32_t get_var_pdm01_device01_status() {
 void set_var_pdm01_device01_status(int32_t value) {
     pdm01_device01_status = value;
 }
+
+float battery_voltage;
+float get_var_battery_voltage() {
+    return battery_voltage;
+}
+void set_var_battery_voltage(float value) {
+    battery_voltage = value;
+}
+
+int32_t battery_soc_percentage;
+int32_t get_var_battery_soc_percentage() {
+    return battery_soc_percentage;
+}
+void set_var_battery_soc_percentage(int32_t value) {
+    battery_soc_percentage = value;
+}
+
+int32_t current_power_consumption_in_watts;
+int32_t get_var_current_power_consumption_in_watts() {
+    return current_power_consumption_in_watts;
+}
+void set_var_current_power_consumption_in_watts(int32_t value) {
+    current_power_consumption_in_watts = value;
+}
