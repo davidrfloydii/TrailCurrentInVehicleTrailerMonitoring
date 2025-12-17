@@ -62,7 +62,7 @@ void touch_init() {
   // returns rxLength - if 0 we have a problem
   uint8_t returnSize = Wire.requestFrom(GT911_ADDR1, (uint8_t)1);
   if (returnSize == 0) {
-    Serial.println("Setting address to ADDR2");
+    Serial0.println("Setting address to ADDR2");
     // restart with other address
     ts.begin(GT911_ADDR2);
   }

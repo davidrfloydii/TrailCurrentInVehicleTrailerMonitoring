@@ -62,6 +62,7 @@ void my_touchpad_read(lv_indev_drv_t *indev_driver, lv_indev_data_t *data)
       /*Set the coordinates*/
       data->point.x = touch_last_x;
       data->point.y = touch_last_y;
+      debugln("Touch at: " + String(data->point.x) + "," + String(data->point.y));
     }
     else if (touch_released())
     {
@@ -77,9 +78,6 @@ void my_touchpad_read(lv_indev_drv_t *indev_driver, lv_indev_data_t *data)
 void setup()
 {
   Serial0.begin(9600);
-  // while (!Serial);
-  Serial0.println("LVGL Widgets Demo");
-
   // Init touch device
 
   // Init Display
@@ -127,7 +125,7 @@ void setup()
 
     ui_init();
     espNowHelper::initialize();
-    Serial.println("Setup done");
+    debugln("Setup done");
   }
 }
 

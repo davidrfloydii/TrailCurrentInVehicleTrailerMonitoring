@@ -1,7 +1,7 @@
 {
   "navigation": {
-    "selectedUserPageObject": "[TrailCurrentInVehicleTrailerMonitoring.eez-project]:/userPages/1",
-    "selectedGlobalVariableObject": "[TrailCurrentInVehicleTrailerMonitoring.eez-project]:/variables/globalVariables/18",
+    "selectedUserPageObject": "[TrailCurrentInVehicleTrailerMonitoring.eez-project]:/userPages/0",
+    "selectedGlobalVariableObject": "[TrailCurrentInVehicleTrailerMonitoring.eez-project]:/variables/globalVariables/6",
     "subnavigationSelectedItems": {
       "variables-tab/sub-navigation/selected-item": "Global"
     }
@@ -196,10 +196,10 @@
                 {
                   "type": "tab",
                   "id": "#aa67ef5c-cfa4-4d86-a3fb-87920033f2b5",
-                  "name": "Trailer",
+                  "name": "Home",
                   "component": "editor",
                   "config": {
-                    "objectPath": "[TrailCurrentInVehicleTrailerMonitoring.eez-project]:/userPages/1",
+                    "objectPath": "[TrailCurrentInVehicleTrailerMonitoring.eez-project]:/userPages/0",
                     "permanent": false
                   },
                   "icon": "svg:page"
@@ -1016,14 +1016,16 @@
     "[TrailCurrentInVehicleTrailerMonitoring.eez-project]:/userPages/5[flow-state]": {
       "selection": {
         "0": {
-          "3": {
-            "$selected": true
-          }
+          "1": {},
+          "2": {},
+          "3": {},
+          "4": {},
+          "5": {}
         }
       },
       "transform": {
         "translate": {
-          "x": -254,
+          "x": -263,
           "y": -244
         },
         "scale": 1
@@ -1047,6 +1049,47 @@
         "translate": {
           "x": -401,
           "y": -261
+        },
+        "scale": 1
+      },
+      "timeline": {
+        "isEditorActive": false,
+        "position": 0,
+        "secondToPx": 200,
+        "scrollLeft": 0
+      }
+    },
+    "[TrailCurrentInVehicleTrailerMonitoring.eez-project]:/userPages/3[flow-state]": {
+      "selection": {},
+      "transform": {
+        "translate": {
+          "x": -400,
+          "y": -240
+        },
+        "scale": 1
+      },
+      "timeline": {
+        "isEditorActive": false,
+        "position": 0,
+        "secondToPx": 200,
+        "scrollLeft": 0
+      }
+    },
+    "[TrailCurrentInVehicleTrailerMonitoring.eez-project]:/userPages/4[flow-state]": {
+      "selection": {
+        "0": {
+          "1": {
+            "$selected": true
+          },
+          "2": {
+            "$selected": true
+          }
+        }
+      },
+      "transform": {
+        "translate": {
+          "x": -400,
+          "y": -240
         },
         "scale": 1
       },

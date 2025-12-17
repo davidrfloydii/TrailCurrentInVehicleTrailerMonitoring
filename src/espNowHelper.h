@@ -54,7 +54,7 @@ namespace espNowHelper
         float f = scaled / 10000.0f;
         if (in[0] == 1)
             f = -f;
-        Serial.println(f, 5);
+        debugf(f, 5);
         return f;
     }
     // Method that can be used to decode date and time data from a CAN message
@@ -132,7 +132,7 @@ namespace espNowHelper
         // Init ESP-NOW
         if (esp_now_init() != ESP_OK)
         {
-            Serial.println("Error initializing ESP-NOW");
+            debugln("Error initializing ESP-NOW");
             return;
         }
 
@@ -148,7 +148,7 @@ namespace espNowHelper
         // Add peer
         if (esp_now_add_peer(&peerInfo) != ESP_OK)
         {
-            Serial.println("Failed to add peer");
+            debugln("Failed to add peer");
             return;
         }
         // Register for a callback function that will be called when data is received
